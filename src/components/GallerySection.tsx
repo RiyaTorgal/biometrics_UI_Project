@@ -91,7 +91,7 @@ export function GallerySection() {
         </div>
 
         {/* Events Grid */}
-        <div className="grid lg:grid-cols-6 gap-2">
+        <div className="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-1 gap-2">
           {galleryImages.map((event, index) => (
             <Card
               key={event.title}
